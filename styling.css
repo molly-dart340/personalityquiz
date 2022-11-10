@@ -1,0 +1,85 @@
+body {
+    background-image: url('/assets/princess.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Meddon', cursive;
+    stroke: black;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+}
+
+#container {
+    background-color: #5dbee9;
+    color: white;
+    width: 45%;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    overflow: hidden;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.buttons {
+    height: 200px;
+    width: 350px;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.buttons:hover {
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, .2);
+}
+
+img {
+    height: 200px;
+    width: 350px;
+}
+
+#tiana {
+    height: 300px;
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cinderella {
+    height: 300px;
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mulan {
+    height: 300px;
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#belle {
+    height: 300px;
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
